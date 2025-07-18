@@ -29,7 +29,7 @@ $(EXE): $(OBJ)
 	$(NVCC) $(CCFLAGS) $(GENCODE_FLAGS) $^ -o $@ $(LDFLAGS)
 
 run: build
-	./$(EXE) > output.log
+	./$(EXE) 20 > output.log
 
 clean:
 	rm -f $(OBJ) $(EXE) output.log
