@@ -1,0 +1,29 @@
+# Capstone Project Description
+
+##  Project Goal
+
+The goal of this project is to demonstrate GPU-accelerated sorting using the Thrust library, which abstracts CUDA parallel algorithms in a high-level C++ STL-like interface.
+
+##  Key Components
+
+- **Thrust Library**: Used for sorting a device vector of integers
+- **CUDA**: Underlying platform for GPU execution
+- **Makefile**: Automates the compilation and execution pipeline
+
+##  Observations
+
+- Sorting 10 integers was extremely fast and effective
+- With larger data sets, GPU performance benefits are more visible
+- Thrust simplifies GPU programming significantly
+
+##  Lessons Learned
+
+- CUDA setup and compilation can be modularized using Makefiles
+- Thrust’s abstractions reduce the need for manual kernel definitions
+- Proper memory management between host and device is crucial
+
+##  Next Steps
+
+- Expand to sort floating point arrays
+- Integrate timing mechanisms for benchmarking
+- Compare GPU sort with CPU STL sort for large datasets
