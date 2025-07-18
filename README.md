@@ -1,14 +1,16 @@
 # Thrust GPU Sort (Capstone Project)
 
-This project demonstrates the use of the **Thrust** library to perform GPU-accelerated sorting using CUDA.
+This project demonstrates how to use the **Thrust** library to sort data on the GPU using CUDA.
 
 ##  Requirements
 
-- NVIDIA GPU with CUDA support
-- CUDA Toolkit (v10.0+)
-- Make
+- CUDA-compatible GPU
+- CUDA Toolkit installed
+- Make installed
 
 ##  Build and Run
+
+To compile and run the project:
 
 ```bash
 make run
